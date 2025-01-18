@@ -1,0 +1,33 @@
+### Ejercicio: Sistema de Gestión de Empleados
+
+#### Descripción
+Crear un sistema de gestión de empleados que incluya diferentes tipos de empleados, como empleados a tiempo completo y empleados a tiempo parcial. Cada tipo de empleado debe tener propiedades y métodos específicos.
+
+#### Requisitos
+
+1. *Clase Base Empleado*:
+   - Propiedades:
+     - nombre (String)
+     - id (int)
+     - salarioBase (double)
+   - Métodos:
+     - Constructor para inicializar las propiedades.
+     - Método calcularSalario() que devuelve el salario base.
+     - Método mostrarDetalles() que imprime los detalles del empleado.
+
+2. *Clase Derivada EmpleadoTiempoCompleto*:
+   - Propiedades:
+     - bono (double)
+   - Métodos:
+     - Constructor para inicializar las propiedades, incluyendo las de la clase base.
+     - Sobrescribir calcularSalario() para incluir el bono.
+     - Sobrescribir mostrarDetalles() para incluir el bono.
+
+3. *Clase Derivada EmpleadoTiempoParcial*:
+   - Propiedades:
+     - horasTrabajadas (int)
+     - tasaPorHora (double)
+   - Métodos:
+     - Constructor para inicializar las propiedades, incluyendo las de la clase base.
+     - Sobrescribir calcularSalario() para calcular el salario basado en las horas trabajadas y la tasa por hora.
+     - Sobrescribir mostrarDetalles() para incluir las horas trabajadas y la tasa por hora.

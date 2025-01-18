@@ -1,0 +1,21 @@
+Crear un sistema simple de herencia con una clase base Animal y dos clases derivadas: Perro y Gato. Cada tipo de animal debe tener sus propias características y comportamientos.
+
+Requisitos
+Clase Base Animal:
+
+Propiedades:
+nombre (String)
+
+Métodos:
+Constructor para inicializar la propiedad nombre.
+Método hacerSonido() que imprime un sonido genérico.
+
+Clase Derivada Perro:
+Métodos:
+Constructor para inicializar la propiedad nombre.
+Sobrescribir hacerSonido() para imprimir el sonido específico de un perro ("Guau").
+
+Clase Derivada Gato:
+Métodos:
+Constructor para inicializar la propiedad nombre.
+Sobrescribir hacerSonido() para imprimir el sonido específico de un gato ("Miau")
